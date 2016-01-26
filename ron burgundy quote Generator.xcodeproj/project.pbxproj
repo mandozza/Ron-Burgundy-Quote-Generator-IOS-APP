@@ -12,6 +12,7 @@
 		3F281C931C52C50600CA066E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F281C911C52C50600CA066E /* Main.storyboard */; };
 		3F281C951C52C50600CA066E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F281C941C52C50600CA066E /* Assets.xcassets */; };
 		3F281C981C52C50600CA066E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F281C961C52C50600CA066E /* LaunchScreen.storyboard */; };
+		3F281D091C57909800CA066E /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F281D081C57909800CA066E /* Quotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3F281C941C52C50600CA066E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F281C971C52C50600CA066E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F281C991C52C50700CA066E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F281D081C57909800CA066E /* Quotes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				3F281C8D1C52C50600CA066E /* AppDelegate.swift */,
 				3F281C8F1C52C50600CA066E /* ViewController.swift */,
 				3F281C911C52C50600CA066E /* Main.storyboard */,
+				3F281D081C57909800CA066E /* Quotes.swift */,
 				3F281C941C52C50600CA066E /* Assets.xcassets */,
 				3F281C961C52C50600CA066E /* LaunchScreen.storyboard */,
 				3F281C991C52C50700CA066E /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				3F281C901C52C50600CA066E /* ViewController.swift in Sources */,
 				3F281C8E1C52C50600CA066E /* AppDelegate.swift in Sources */,
+				3F281D091C57909800CA066E /* Quotes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				3F281C9E1C52C50700CA066E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
